@@ -57,3 +57,9 @@ g++ --version
 g++ main.cpp -o main.exe
 ./main.exe
 ```
+
+- `g++`：呼叫你的编译器。
+
+- `main.cpp`：告诉它你要翻译哪个文件（注意要写对文件名）。
+
+- `-o main.exe`：`-o` 代表 output（输出），意思是把翻译好的程序命名为 main.exe。如果你不写这一段（只写 `g++ main.cpp`），系统默认会给你生成一个叫 `a.exe` 的文件  
